@@ -1,0 +1,42 @@
+#row-how-works{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+img.triangulo2{
+    transform: rotate(-145deg);
+}
+img.triangulo3{
+    transform: rotate(10deg);
+}
+img.triangulo4{
+    transform: rotate(75deg);
+}
+
+.number{
+    font-family: 'Lato', sans-serif;
+    font-size: 7rem;
+    color:white;
+}
+
+.number.one{
+    padding-right: 6rem;
+}
+.number.two{
+    padding-left: 3rem;
+    padding-top: 1.5rem;
+}
+.number.three{
+    padding-right:5rem;
+}
+.number.four{
+    padding-right: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.info-text p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
