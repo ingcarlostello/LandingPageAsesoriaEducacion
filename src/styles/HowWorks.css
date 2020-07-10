@@ -20,6 +20,12 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+
+.icon-play-button{
+    width: 7%;
+}
+
 img.triangulo2 {
     transform: rotate(-145deg);
 }
@@ -72,6 +78,10 @@ img.triangulo4 {
         width: 40%;
     }
 
+    .icon-play-button{
+        width: 23%;
+    }
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 500px) {
@@ -85,5 +95,8 @@ img.triangulo4 {
     }
     .separator-line-how-works {
         width: 50%;
+    }
+    .icon-play-button{
+        width: 30%;
     }
 }

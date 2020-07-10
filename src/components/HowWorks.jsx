@@ -1,5 +1,6 @@
 import React from 'react';
-import image from '../img/Assets/triangulo.png'
+import image from '../img/Assets/triangulo.png';
+import playButton from '../img/Logos/play-button.png';
 import '../styles/HowWorks.css';
 
 const HowWorks = () => {
@@ -47,6 +48,10 @@ const HowWorks = () => {
                         <p>¡A<br /> Aprender!</p>
                     </div>
                 </div>
+            </div>
+            <div className="play-button text-center">
+                <img src={playButton} alt="play" className='icon-play-button'/>
+                <h3>Ver video</h3>
             </div>
         </section>
     );
