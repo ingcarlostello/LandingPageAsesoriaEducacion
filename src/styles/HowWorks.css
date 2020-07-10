@@ -1,42 +1,89 @@
-#row-how-works{
+#row-how-works {
     padding-left: 5rem;
     padding-right: 5rem;
 }
 
-img.triangulo2{
+.how-Works__text-wrapper h1.display-4 {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+.how-Works__text-wrapper p {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+.separator-line-how-works {
+    width: 20%;
+    height: 3px;
+    background: #da9428;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.triangulo2 {
     transform: rotate(-145deg);
 }
-img.triangulo3{
+img.triangulo3 {
     transform: rotate(10deg);
 }
-img.triangulo4{
+img.triangulo4 {
     transform: rotate(75deg);
 }
 
-.number{
-    font-family: 'Lato', sans-serif;
+.number {
+    font-family: "Lato", sans-serif;
     font-size: 7rem;
-    color:white;
+    color: white;
 }
 
-.number.one{
+.number.one {
     padding-right: 6rem;
 }
-.number.two{
+.number.two {
     padding-left: 3rem;
     padding-top: 1.5rem;
 }
-.number.three{
-    padding-right:5rem;
+.number.three {
+    padding-right: 5rem;
 }
-.number.four{
+.number.four {
     padding-right: 2.5rem;
     padding-bottom: 2rem;
 }
 
-.info-text p{
-    font-family: 'Lato', sans-serif;
+.info-text p {
+    font-family: "Lato", sans-serif;
     font-weight: 400;
     font-size: 1.5rem;
     margin-top: 1rem;
+}
+
+@media screen and (min-width: 501px) and (max-width: 768px) {
+  
+.how-Works__text-wrapper h1.display-4 {
+        font-weight: 800;
+        font-size: 3.5rem;
+    }
+    .how-Works__text-wrapper p {
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+    .separator-line-how-works {
+        width: 40%;
+    }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
+    .how-Works__text-wrapper h1.display-4 {
+        font-weight: 600;
+        font-size: 2.5rem;
+    }
+    .how-Works__text-wrapper p {
+        font-weight: 400;
+        font-size: 1rem;
+    }
+    .separator-line-how-works {
+        width: 50%;
+    }
 }

@@ -7,7 +7,7 @@ const HowWorks = () => {
         <section id="how-works" className="how-works">
             <div className="how-Works__text-wrapper text-center">
                 <h1 className="display-4">Cómo funciona</h1>
-                <hr className="my-2" />
+                <div className="separator-line-how-works"></div>
                 <p>Clases en vivo, personalizadas para niños y jóvenes<br /> de colegio que les permite aprender de manera<br /> segura y desde cualquier lugar </p>
             </div>
             <div className="row" id="row-how-works">
