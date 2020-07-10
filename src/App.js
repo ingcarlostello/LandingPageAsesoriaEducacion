@@ -20,7 +20,7 @@ function App() {
       <HowWorks />    
       <PruebaSuscripcion />
       <Plans />      
-       <PruebaSuscripcion2 />
+      <PruebaSuscripcion2 />
       <Support />
       <FinalSection />
       <Footer />

@@ -9,9 +9,9 @@ const Plans = () => {
     return (
         <section id="plans">
             <div className="plans__text-wrapper text-center">
-                <h1 className="display-4">¡Tenemos planes para todos los presupuestos!</h1>
-                <hr className="my-2" />
-                <p>Adicional a la calidad y metodología ágil implementada,<br />puedes elegir el tiempo que necesitan tus hijos<br /> </p>
+                <h1 className="display-4 titulo-plan">¡Tenemos planes para todos<br />los presupuestos!</h1>
+               <div className="separator-line-how-works"></div>
+                <p className="subtitulo-plan">Adicional a la calidad y metodología ágil implementada,<br />puedes elegir el tiempo que necesitan tus hijos<br /> </p>
             </div>
             <div className="row ml-3 mr-3">
                 <div className="col-sm col-md col-lg-4 h-25">

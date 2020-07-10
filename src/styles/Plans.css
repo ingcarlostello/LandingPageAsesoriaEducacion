@@ -43,6 +43,21 @@ div.price.position-absolute p.type{
     width:90%;
 }
 
+.titulo-plan{
+    
+    font-family: "Lato", sans-serif;
+    
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.subtitulo-plan{
+     font-family: "Lato", sans-serif;
+     font-weight: 300;
+     font-size: 1.5rem;
+}
+
+
 
 
 
