@@ -1,7 +1,7 @@
 #home .home .wrapper-img img {
     width: 100%;
     height: auto;
-clip-path: polygon(50% 0%, 100% 0, 100% 76%, 0 100%, 0 15%);
+    clip-path: polygon(50% 0%, 100% 0, 100% 76%, 0 100%, 0 15%);
 }
 #home .home .wrapper-img .fondo {
     width: 100%;

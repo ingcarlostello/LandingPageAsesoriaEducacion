@@ -64,12 +64,12 @@ img.triangulo-blanco{
     animation-fill-mode: backwards;
 }
 
-.me-interesa{
+/* .me-interesa{
     width: 40%;
     display: none;
     left: 10rem;
     top:3.12rem;
-}
+} */
 
 
 .container-button:hover .me-interesa{

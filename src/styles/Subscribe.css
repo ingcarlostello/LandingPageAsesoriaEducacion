@@ -1,82 +1,256 @@
-.subscribe img {    
-    max-width: 100%;
-    clip-path: polygon(100% 0, 100% 70%, 0 100%, 0 25%); 
-}
-img.triangulo-blanco{
-    width: 50%;
+.subscribe img {
+    width: 100%;
+    height: 50rem;
+    clip-path: polygon(100% 0, 100% 79%, 0 100%, 0 20%);
 }
 
-.porcentaje{
-    font-family: 'Lato', sans-serif;
+#subscribe .subscribe .subscribe-wrapper-img .fondo {
+    width: 100%;
+    height: 100%;
+    background: rgba(218, 148, 40, 0.5);
+    top: 0;
+    clip-path: polygon(100% 0, 100% 79%, 0 100%, 0 20%);
+}
+img.triangulo-blanco-subscribe1 {
+    width: 100%;
+    height: auto;
+    top: -100px;
+    left: -50px;
+}
+
+.porcentaje {
+    font-family: "Lato", sans-serif;
     font-weight: 900;
-    color:white;
+    color: white;
+    top: 1px;
+    left: 8px;
+}
+h1.display-4 {
+    font-size: 3rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    top: 80px;
+    right: 120px;
+}
+p.text-white.position-absolute.texto {
+    top: 130px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 1.5rem;
+    width: 200%;
+    left: -250px;
 }
 
+
+.container-button {
+    top: 300px;
+    right: 75px;
+    width: 100%;
+} 
+.me-interesa1 {
+    display: none;
+}
+.container-button:hover .me-interesa1 {
+    display: block;
+    width: 45%;
+    height: 100%;
+    left: 100px;;
+} 
 
 .btn:link,
-.btn:visited{
-  
-   text-decoration: none;
-   padding: 1rem 5rem;
-   display: inline-block;
-    border-radius: 1rem; 
-   transition: all .2s;
-   position: relative; 
-
+.btn:visited {
+    text-decoration: none;
+    padding: 1rem 5rem;
+    display: inline-block;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    position: relative;
 }
-.btn-white{
+.btn-white {
     /* background-color: #fff; */
-    color:white;
+    color: white;
     border: 1px solid white;
 }
 
-.btn:hover{
-    transform: translateY(-.3rem);
-    box-shadow: 0 1rem 2rem rgba(0,0,0, .2);
+.btn:hover {
+    transform: translateY(-0.3rem);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
     background-color: #fff;
-    
-    
 }
-.btn:active{
-    transform: translateY(-.1rem);
-    box-shadow: 0 .5rem 1rem rgba(0,0,0, .2);
+.btn:active {
+    transform: translateY(-0.1rem);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
-
-.btn::after{
+.btn::after {
     content: "";
-    display:inline-block;
+    display: inline-block;
     height: 100%;
     width: 100%;
     border-radius: 1rem;
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     z-index: -1;
-    transition: all .4s;
-  
+    transition: all 0.4s;
 }
-
-.btn-white::after{
+.btn-white::after {
     background-color: #fff;
 }
-.btn:hover::after{
+.btn:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
 }
-
-.btn-animated{
-    animation:moveInBottom .5s ease-out .75s;
+.btn-animated {
+    animation: moveInBottom 0.5s ease-out 0.75s;
     animation-fill-mode: backwards;
 }
 
-.me-interesa{
-    width: 40%;
-    display: none;
-    left: 10rem;
-    top:3.12rem;
+
+@media screen and (max-width: 1024px) {
+    img.triangulo-blanco-subscribe1 {
+        width: 150%;
+        height: auto;
+        top: -170px;
+        left: -50px;
+    }
+    .porcentaje {
+        font-family: "Lato", sans-serif;
+        font-weight: 600;
+        color: white;
+        font-size: 5rem;
+        top: -50px;
+        left: 8px;
+    }
+    h1.display-4 {
+        font-size: 3rem;
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        top: 50px;
+        right: 40px;
+    }
+    p.text-white.position-absolute.texto {
+        top: 120px;
+        font-family: "Lato", sans-serif;
+        font-weight: 500;
+        color: white;
+        font-size: 1.5rem;
+        width: 200%;
+        left: -150px;
+    }
+
+    img.me-interesa1 {
+        width: 50%;
+        height: auto;
+        right: 90px;
+        top: 30px;
+        display: none;
+    }
+
+    .container-button {
+        top: 300px;
+        right: -100px;
+        width: 200%;
+    }
+    .container-button:hover .me-interesa1 {
+        display: block;
+    }
 }
 
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    img.triangulo-blanco-subscribe1 {
+        width: 200%;
+        height: auto;
+        top: -170px;
+        left: -50px;
+    }
+    .porcentaje {
+        font-family: "Lato", sans-serif;
+        font-weight: 600;
+        color: white;
+        font-size: 5rem;
+        top: -50px;
+        left: 8px;
+    }
+    h1.display-4 {
+        font-size: 3rem;
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        top: 50px;
+        right: -40px;
+    }
+    p.text-white.position-absolute.texto {
+        top: 120px;
+        font-family: "Lato", sans-serif;
+        font-weight: 500;
+        color: white;
+        font-size: 1.5rem;
+        width: 200%;
+        left: -100px;
+    }
 
-.container-button:hover .me-interesa{
-    display: block;
+    img.me-interesa1 {
+        width: 70%;
+        height: auto;
+        right: 20px;
+        top: 70px;
+        display: none;
+    }
+
+    .container-button {
+        top: 300px;
+        right: -100px;
+        width: 200%;
+    }
+    .container-button:hover .me-interesa1 {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
+    img.triangulo-blanco-subscribe1 {
+        width: 350%;
+        height: auto;
+        top: -100px;
+        left: -95px;
+    }
+    .porcentaje {
+        font-family: "Lato", sans-serif;
+        font-weight: 600;
+        color: white;
+        font-size: 5rem;
+        top: 20px;
+    }
+    h1.display-4 {
+        font-size: 3rem;
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        top: 105px;
+        right: -70px;
+    }
+    p.text-white.position-absolute.texto {
+        top: 155px;
+        font-family: "Lato", sans-serif;
+        font-weight: 500;
+        color: white;
+        font-size: 1rem;
+        left:-50px;
+    }
+
+    img.me-interesa1 {
+        width: 70%;
+        height: auto;
+        right: 20px;
+        top: 70px;
+        display: none;
+    }
+
+    .container-button {
+        top: 300px;
+        right: -75px;
+        width: 300%;
+    }
+    .container-button:hover .me-interesa1 {
+        display: block;
+    }
 }
