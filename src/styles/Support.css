@@ -1,3 +1,10 @@
 .logos-gobierno{
     width: 80%;
 }
+.separator-line-support{
+    width: 20%;
+    height: 3px;
+    background: #da9428;    
+    margin-left: auto;
+    margin-right: auto;
+}

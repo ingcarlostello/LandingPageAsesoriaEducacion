@@ -1,77 +1,199 @@
-.subscribe2 img {    
-    max-width: 100%;
-    clip-path: polygon(100% 0, 100% 70%, 0 100%, 0 25%); 
+.subscribe2 img {
+   width:100%;
+    height: 50rem;
+    clip-path: polygon(100% 0, 100% 70%, 0 100%, 0 25%);
 }
-img.triangulo-blanco{
-    width: 50%;
+#subscribe2 .subscribe2 .subscribe2-wrapper-img .fondo {
+    width: 100%;
+    height: 100%;
+    background: rgba(218, 148, 40, 0.5);
+    top: 0;
+    clip-path: polygon(100% 0, 100% 70%, 0 100%, 0 25%);
 }
+img.triangulo-blanco {
+    width: 100%;
+    height: auto;
+    top: -100px;
+}
+ h1.display-4.text-white.position-absolute.suscribete2{
+        top:50px;
+        left: 30px;
+    }
+  p.text-white-suscribete2{
+        top:100px;
+        color:white;
+        width:200%;
+        left: -200px;
+        font-size: 2rem;
+    }
 
-
+    .container-button2.position-absolute{
+        top:300px;
+        width: 300%;
+        right: -300px;
+    }
 
 .btn:link,
-.btn:visited{
-  
-   text-decoration: none;
-   padding: 1rem 5rem;
-   display: inline-block;
-    border-radius: 1rem; 
-   transition: all .2s;
-   position: relative; 
-
+.btn:visited {
+    text-decoration: none;
+    padding: 1rem 5rem;
+    display: inline-block;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    position: relative;
 }
-.btn-white{
+.btn-white {
     /* background-color: #fff; */
-    color:white;
+    color: white;
     border: 1px solid white;
 }
 
-.btn:hover{
-    transform: translateY(-.3rem);
-    box-shadow: 0 1rem 2rem rgba(0,0,0, .2);
+.btn:hover {
+    transform: translateY(-0.3rem);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
     background-color: #fff;
-    
-    
 }
-.btn:active{
-    transform: translateY(-.1rem);
-    box-shadow: 0 .5rem 1rem rgba(0,0,0, .2);
+.btn:active {
+    transform: translateY(-0.1rem);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
-.btn::after{
+.btn::after {
     content: "";
-    display:inline-block;
+    display: inline-block;
     height: 100%;
     width: 100%;
     border-radius: 1rem;
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     z-index: -1;
-    transition: all .4s;
-  
+    transition: all 0.4s;
 }
 
-.btn-white::after{
+.btn-white::after {
     background-color: #fff;
 }
-.btn:hover::after{
+.btn:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
 }
 
-.btn-animated{
-    animation:moveInBottom .5s ease-out .75s;
+.btn-animated {
+    animation: moveInBottom 0.5s ease-out 0.75s;
     animation-fill-mode: backwards;
 }
 
-/* .me-interesa{
+/* .me-interesa2{
     width: 40%;
-    display: none;
+    display: block;
     left: 10rem;
     top:3.12rem;
 } */
 
-
-.container-button:hover .me-interesa{
+.container-button:hover .me-interesa2 {
     display: block;
 }
+
+@media screen and (max-width: 1024px) {
+    img.triangulo-blanco {
+        width:125%;
+        height: auto;
+        top:-70px
+    }
+    h1.display-4.text-white.position-absolute.suscribete2{
+        top:50px;
+    }
+    p.text-white-suscribete2{
+        top:100px;
+        color:white;
+        width:200%;
+        left: -150px;
+        font-size: 2rem;
+    }
+    .container-button2.position-absolute{
+        top:300px;
+        width: 300%;
+        right: -200px;
+    }
+   
+
+     img.me-interesa2 {
+        width: 70%;
+        height: auto;
+        right: 20px;
+        top: 70px;
+        display: none;
+    }
+
+  
+    .container-button:hover .me-interesa2 {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 768px) {
+     img.triangulo-blanco {
+        width: 200%;
+        height: auto;
+        top:-120px
+    }
+    h1.display-4.text-white.position-absolute.suscribete2{
+        top:10px;
+        right: 40px;
+    }
+    p.text-white-suscribete2{
+        top:70px;
+        color:white;
+        width:200%;
+        left: -130px;
+        font-size: 2rem;
+    }
+    .container-button2.position-absolute{
+        top:320px;
+        width: 300%;
+        right: -100px;
+    }
+    .container-button:hover .me-interesa2 {
+        display: block;
+    }   
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
+    img.triangulo-blanco {
+        width: 200%;
+        height: auto;
+        top:-70px
+    }
+    h1.display-4.text-white.position-absolute.suscribete2{
+        top:-10px;
+    }
+    p.text-white-suscribete2{
+        top:50px;
+        color:white;
+        width:200%;
+        left: -50px;
+    }
+    .container-button2.position-absolute{
+        top:180px;
+        width: 300%;
+        right: -100px;
+    }
+   
+
+     img.me-interesa2 {
+        width: 70%;
+        height: auto;
+        right: 20px;
+        top: 70px;
+        display: none;
+    }
+
+  
+    .container-button:hover .me-interesa2 {
+        display: block;
+    }
+
+}
+

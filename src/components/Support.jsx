@@ -11,7 +11,7 @@ const Support = () => {
         <secton id="support">
             <div className="support__text-wrapper text-center">
                 <h1 className="display-4">¡Servicio de calidad y<br />credibilidad!</h1>
-                <hr className="my-2" />
+               <div className="separator-line-support"></div>
                 <p>Contamos con el apoyo gubernamental, local y nacional<br />para una efectiva entrega de contenidos y clases de calidad certificadas</p>
             </div>
             <div className="row logo d-flex align-items-center justify-content-center">
