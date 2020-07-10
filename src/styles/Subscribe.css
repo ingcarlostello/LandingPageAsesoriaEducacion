@@ -1,0 +1,82 @@
+.subscribe img {    
+    max-width: 100%;
+    clip-path: polygon(100% 0, 100% 70%, 0 100%, 0 25%); 
+}
+img.triangulo-blanco{
+    width: 50%;
+}
+
+.porcentaje{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color:white;
+}
+
+
+.btn:link,
+.btn:visited{
+  
+   text-decoration: none;
+   padding: 1rem 5rem;
+   display: inline-block;
+    border-radius: 1rem; 
+   transition: all .2s;
+   position: relative; 
+
+}
+.btn-white{
+    /* background-color: #fff; */
+    color:white;
+    border: 1px solid white;
+}
+
+.btn:hover{
+    transform: translateY(-.3rem);
+    box-shadow: 0 1rem 2rem rgba(0,0,0, .2);
+    background-color: #fff;
+    
+    
+}
+.btn:active{
+    transform: translateY(-.1rem);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0, .2);
+}
+
+.btn::after{
+    content: "";
+    display:inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+  
+}
+
+.btn-white::after{
+    background-color: #fff;
+}
+.btn:hover::after{
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated{
+    animation:moveInBottom .5s ease-out .75s;
+    animation-fill-mode: backwards;
+}
+
+.me-interesa{
+    width: 40%;
+    display: none;
+    left: 10rem;
+    top:3.12rem;
+}
+
+
+.container-button:hover .me-interesa{
+    display: block;
+}

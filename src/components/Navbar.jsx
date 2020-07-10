@@ -1,12 +1,15 @@
-
 import React from 'react';
-
+import youtubeButton from '../img/Logos/youtubeButton.png'
+import youtubeLogo from '../img/Logos/youtube-logo.png'
+import '../styles/Navbar.css';
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light shadow-sm py-4 bg-white rounded">
-            <a className="navbar-brand" href="true">Navbar</a>
+        <nav id="navbar" className="navbar navbar-expand-lg navbar-light bg-light shadow-sm py-4 bg-white rounded">
+          
+            <img src={youtubeLogo} alt="youtube logo" className="navbar-logo"/>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
+              
+                <img className="navbar-toggler-icon" src={youtubeButton} alt="youtube"/>
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav">

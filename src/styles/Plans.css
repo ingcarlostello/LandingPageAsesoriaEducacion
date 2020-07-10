@@ -1,0 +1,174 @@
+div.price.position-absolute{
+    top:10%;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    left: 25%  
+}
+div.price.position-absolute p.value{
+    font-size: 3rem;
+    font-weight: 900;
+}
+div.price.position-absolute p.type{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: -1rem;
+}
+
+.number-plan{
+    font-size: 5rem;
+    font-weight: 600;
+    left: -0.4rem;
+    color:brown
+
+}
+.description-plan{
+    top:1.87rem;
+    left: 1.87rem;
+}
+.benefits-plan{
+   padding-top: 6.25rem;
+   padding-right: 3.12rem;
+}
+
+.choose-planBtn{
+    width: 95%;
+}
+
+.discount-logo{
+    top:-3.12rem;
+    right:-1.25rem;
+    width:353
+}
+.img-discount{
+    width:90%;
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    div.price.position-absolute{
+        top:10%;       
+        left: 22%  
+    }
+    div.price.position-absolute p.value{
+        font-size: 2.7rem;
+        font-weight: 900;
+    }
+    div.price.position-absolute p.type{
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-top: -1rem;
+    }
+
+    .number-plan{
+        font-size: 5rem;
+        font-weight: 600;
+        left: 2.5rem;
+        color:brown;
+        top:3.43rem;
+    }
+    .description-plan{
+        top:5.31rem;
+        left: 5.5rem;
+        font-size: 1rem;
+    }
+    .benefits-plan{
+        padding-top: 9.68rem;
+        padding-left: 3.12rem;
+        font-size: 1rem;
+    }
+    .choose-planBtn{
+        width: 35%;
+        left: 25%;
+        top:93%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    div.price.position-absolute{
+        top:10%;       
+        left: 18%  
+    }
+    div.price.position-absolute p.value{
+        font-size: 2.0rem;
+        font-weight: 900;
+    }
+    div.price.position-absolute p.type{
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-top: -1rem;
+    }
+    
+    .number-plan{
+        font-size: 3rem;
+        font-weight: 600;
+        left: 3rem;
+        color:brown;
+        top:2.5rem;
+    }
+    .description-plan{
+        top:3.75rem;
+        left: 4.7rem;
+        font-size: 0.59rem;
+    }
+    .benefits-plan{
+        padding-top: 6.25rem;
+        padding-left: 3.12rem;
+        font-size: 0.6rem;
+    }
+    .choose-planBtn{
+        width: 35%;
+        left: 25%;
+        top:93%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    div.price.position-absolute{
+        top:10%;       
+        left: 28%  
+    }
+    div.price.position-absolute p.value{
+        font-size: 2.5rem;
+        font-weight: 900;
+    }
+    div.price.position-absolute p.type{
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-top: -1rem;
+    }
+
+    .number-plan{
+        font-size: 4.5rem;
+        font-weight: 600;
+        left: 2.5rem;
+        color:brown;
+        top:2.5rem;
+    }
+    .description-plan{
+        top:4.25rem;
+        left: 5.31rem;
+        font-size: 0.8rem;
+    }
+    .benefits-plan{
+        padding-top: 8.12rem;
+        padding-left: 3.12rem;
+    }
+    .choose-planBtn{
+        width: 45%;
+        left: 25%;
+        top:95%;
+    }
+
+    .discount-logo{
+        top:-2.12rem;
+        right:-3.5rem;
+        width:353
+    }
+
+    .img-discount{
+        width:65%;
+    }
+}
